@@ -1,0 +1,33 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project_final/branch_ctrl_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_ctrl_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project_final/ctrlpath_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrlpath_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project_final/datapath_subunits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_21
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module adder_32bit
+INFO: [VRFC 10-311] analyzing module instr_mem
+INFO: [VRFC 10-311] analyzing module IF_ID_Reg
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-311] analyzing module ID_EX_Reg
+INFO: [VRFC 10-311] analyzing module mux_41
+INFO: [VRFC 10-311] analyzing module alu_ctrl_unit
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module EX_MEM_Reg
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-311] analyzing module MEM_WB_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project_final/datapath_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project_final/fwd_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fwd_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project/coa_project.srcs/sources_1/new/mod_mult_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod_mult_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project/coa_project.srcs/sources_1/new/mux2_1_posit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_21_posit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project_final/riscv_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project_final/stall_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stall_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/likhith/coa_project_final/riscv_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_tb

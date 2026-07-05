@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../vivado/2025.2/data/rsb/busdef" \
+"../../../../../coa_project_final/branch_ctrl_unit.v" \
+"../../../../../coa_project_final/ctrlpath_unit.v" \
+"../../../../../coa_project_final/datapath_subunits.v" \
+"../../../../../coa_project_final/datapath_unit.v" \
+"../../../../../coa_project_final/fwd_unit.v" \
+"../../../../coa_project.srcs/sources_1/new/mod_mult_clk.v" \
+"../../../../coa_project.srcs/sources_1/new/mux2_1_posit.v" \
+"../../../../../coa_project_final/riscv_top.v" \
+"../../../../../coa_project_final/stall_unit.v" \
+"../../../../../coa_project_final/riscv_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

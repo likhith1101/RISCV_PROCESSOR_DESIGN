@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Jul  1 11:46:20 2026
+# Process ID         : 786
+# Current directory  : /home/likhith
+# Command line       : vivado
+# Log file           : /home/likhith/vivado.log
+# Journal file       : /home/likhith/vivado.jou
+# Running On         : LAPTOP-CURERHLQ
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 2419.199 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 6027 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 8174 MB
+# Available Virtual  : 7691 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/likhith/coa_project/coa_project.xpr
+update_compile_order -fileset sources_1
+save_project_as posit_mul_riscv /home/likhith/posit_mul_riscv -force
+archive_project /home/likhith/posit_mul_riscv_latest.xpr.zip -force -include_local_ip_cache
+archive_project /home/likhith/posit_mul_riscv_sagar.xpr.zip -force -include_local_ip_cache
